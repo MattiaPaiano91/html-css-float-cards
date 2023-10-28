@@ -6,6 +6,21 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+/* header */
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+header > *{
+    padding-top: 30px;
+}
+
+
 /* generale */
 
 .container{
@@ -22,14 +37,16 @@
 .card{
     float: left;
     background-color: black;
-    width:calc(100% / 3);
+    width:calc(100% / 3 - 20px);
     color: white;
+    margin: 0px 10px 20px;
 }
 
 .image-container{
     width: 100px;
     height: 100px;
     float: left;
+    
 }
 
 img {
@@ -38,14 +55,24 @@ img {
     object-fit: contain;
 }
 
-/* header */
-
-header{
-    text-align: center;
+.info-card{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-h1{
-    color: red;
+.card-container{
+    padding-top: 100px;
+}
+
+.info-card :nth-child(2){
+    margin-top: 5px;
+    margin-bottom: 5px;    
 }
 
 
+
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
