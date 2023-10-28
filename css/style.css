@@ -37,9 +37,9 @@ header > *{
 .card{
     float: left;
     background-color: black;
-    width:calc(100% / 3 - 20px);
+    width: calc((100% - 20px) / 3);
     color: white;
-    margin: 0px 10px 20px;
+    margin-top: 50px;
 }
 
 .image-container{
@@ -75,4 +75,8 @@ img {
 a{
     text-decoration: none;
     color: cadetblue;
+}
+.special{
+   margin-left: 10px;
+   margin-right: 10px;
 }
