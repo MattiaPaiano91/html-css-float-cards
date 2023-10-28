@@ -3,15 +3,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+
 }
 
-/* header */
-
-.title{
-    color: red;
-}
+/* generale */
 
 .container{
     width: 1200px;
     margin: auto;
 }
+.clearfix::before{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.box{
+    float: left;
+    background-color: black;
+    width:calc(100% / 3);
+    color: white;
+    height: 200px;
+}
+/* header */
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: red;
+    
+}
+
+
