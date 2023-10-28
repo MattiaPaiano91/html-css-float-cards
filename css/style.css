@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
-
 }
 
 /* generale */
@@ -13,19 +12,32 @@
     width: 1200px;
     margin: auto;
 }
+
 .clearfix::before{
     clear: both;
     content: "";
     display: table;
 }
 
-.box{
+.card{
     float: left;
     background-color: black;
     width:calc(100% / 3);
     color: white;
-    height: 200px;
 }
+
+.image-container{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
 /* header */
 
 header{
@@ -34,7 +46,6 @@ header{
 
 h1{
     color: red;
-    
 }
 
 
